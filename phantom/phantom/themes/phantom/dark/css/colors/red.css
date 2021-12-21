@@ -1,0 +1,59 @@
+/*
+ * Selection color
+ */
+::-moz-selection {
+  background-color: ##bb1c2a;
+}
+
+::selection {
+  background-color: ##bb1c2a;
+}
+
+/* background color */
+.btn-primary,
+.loading-mask,
+.section-title h3::after,
+.hexagon-item:hover .hex-item div::before,
+.hexagon-item:hover .hex-item div::after,
+.progress .bar,
+.contact-social li:hover span {
+  background-color: ##bb1c2a;
+}
+
+.nicescroll-cursors {
+  background: ##bb1c2a !important;
+}
+
+/* color */
+.primary,
+.link:hover,
+.filter .active,
+.works-item h4,
+.msg-success {
+  color: ##bb1c2a;
+}
+
+/* border color */
+.testimonials .owl-dot.active {
+  border-color: ##bb1c2a;
+}
+
+/* border top color */
+.site-wrapper,
+.contact-social li:hover span::after,
+.contact-social-hex:hover::before {
+  border-top-color: ##bb1c2a;
+}
+
+/* border bottom color */
+.filter .active,
+.contact-social li:hover span::before,
+.contact-social-hex:hover::after {
+  border-bottom-color: ##bb1c2a;
+}
+
+/* fill color */
+.service-hex:hover .fill,
+.service-hex:hover .st1 {
+  fill: ##bb1c2a;
+}

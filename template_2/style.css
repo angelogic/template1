@@ -1,0 +1,120 @@
+body {
+
+    font-family: 'Lato', sans-serif;
+}
+strong {
+    color: #FC621D;
+    font-weight: 600;
+}
+
+#top {
+    background-image: linear-gradient(-90deg, #F0B800, #FF5024);
+    height: 700px;
+    margin: 0;
+}
+#nom {
+    color: white;
+    font-weight: 900;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+#header {
+    color: white;
+    font-weight: 300;
+}
+#desc {
+    min-height: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #8c9398;
+}
+#desc p {
+    font-weight: 300;
+    line-height: 50px;
+}
+/*NAVBAR*/
+
+#nav-bar {
+    display: none;
+}
+#nav-bar li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+#nav-bar a {
+    color: white;
+    font-size: 18px;
+}
+.fa-bars {
+    color: white;
+}
+.nav-button {}
+/*SKILLS*/
+
+.skills li {
+    list-style: none;
+    font-size: 18px;
+    margin-top: 25px;
+    color: #484848;
+}
+.skills {
+    padding: 0;
+}
+.skillHeader {
+    color: #FC621D;
+    padding-bottom: 15px;
+}
+.fa-github-alt {
+    color: white;
+    margin-top: 50px;
+}
+.ico {
+    border-radius: 50%;
+    background-color: #FC621D;
+    padding: 50px;
+    color: white;
+    margin-top: 100px
+}
+/*CONTACT*/
+
+.contact {
+    margin-top: 150px;
+    background-color: #EEEEEE;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.fa-paper-plane {
+    margin-top: 100px;
+    color: #FC621D;
+}
+#mail {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.fa-github {
+    color: #FC621D;
+    margin-top: 70px;
+}
+.fa-envelope-o {
+    color: #FC621D;
+    margin-top: 70px;
+}
+.contact a {
+    color: #484848;
+}
+.footer {
+    color: white;
+    background-color: #FC621D;
+    width: 100%;
+    padding: 15px;
+}
+.fa-angle-down {
+    color: white;
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    margin-top: 100px;
+}
