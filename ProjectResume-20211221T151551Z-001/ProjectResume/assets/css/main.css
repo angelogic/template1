@@ -416,11 +416,11 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     cursor: pointer;
-    background-color:rgba(237,21,68,0.4);
+    background-color:rgba(10, 31, 219,0.4);
 }
 .header--nav-toggle:hover {
 	 border-radius: 15px;
-    background-color:rgba(237,21,68,0.2);
+    background-color:rgba(10, 31, 219,0.2);
 }
 
 .header--nav-toggle span, .header--nav-toggle::before, .header--nav-toggle::after {
@@ -428,7 +428,7 @@ body {
     position: relative;
     width: 16px;
     height: 2px;
-    background-color:#ed1544;
+    background-color:blue;
 }
 .header--nav-toggle::before {
     bottom: 5px;
@@ -450,7 +450,7 @@ body {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #ed1544;
+    background-color: blue;
     border: none;
     opacity: 0;
     visibility: hidden;
@@ -528,7 +528,7 @@ body {
 .side-nav li:nth-child(5)::before {
     content: "05"}
 .side-nav li.is-active {
-    color: #ed1544;
+    color: blue;
     -webkit-transition: color .4s ease-in-out;
     transition: color .4s ease-in-out;
 }
@@ -585,7 +585,7 @@ body {
     left: 0;
     width: 30px;
     height: 4px;
-    background-color: #ed1544;
+    background-color: blue;
 }*/
 .intro--banner h1 {
     position: relative;
@@ -608,7 +608,7 @@ body {
     left: 23px;
     right: 0;
     height: 100%;
-    background-color: #ed1544;
+    background-color: blue;
     z-index: -1;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out;
@@ -774,7 +774,7 @@ body {
 .work--lockup .slider--item a {
     text-decoration: none;
     color: white;
-        text-shadow: 1px 1px 2px black, 0 0 25px #ed1544, 0 0 5px darkblue;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .work--lockup .slider--item-title {
     margin-top: 10px;
@@ -793,7 +793,7 @@ body {
     margin: 0 auto;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 1px 1px 2px white, 0 0 25px #ed1544, 0 0 5px darkblue;
+    box-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
 }
 .work--lockup .slider--item-image img {
     width: 100%}
@@ -822,7 +822,7 @@ body {
 }
 .work--lockup .slider--item-center a {
     color: white;
-        text-shadow: 1px 1px 2px black, 0 0 25px #ed1544, 0 0 5px darkblue;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .work--lockup .slider--item-center .slider--item-title {
     margin-top: 25px;
@@ -852,7 +852,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #ed1544;
+    background-color: blue;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -934,7 +934,7 @@ body {
     left: 200px;
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg);
-    border: 5px solid #ed1544;
+    border: 5px solid blue;
     border-right-color: transparent;
     border-bottom-color: transparent;
 }
@@ -947,7 +947,7 @@ body {
     transform: rotate(45deg);
     width: 10px;
     height: 10px;
-    background-color: #ed1544;
+    background-color: blue;
 }*/
 .about--banner h2 {
     position: relative;
@@ -964,7 +964,7 @@ body {
     left: 268px;
     width: 30px;
     height: 30px;
-    background-color: #ed1544;
+    background-color: blue;
     border-radius: 50%}
 .about--banner h2::after {
     content: "";
@@ -973,7 +973,7 @@ body {
     left: 255px;
     width: 10px;
     height: 10px;
-    background-color: #ed1544;
+    background-color: blue;
 }
 .about--banner a {
     padding: 5px 17px 5px 0;
@@ -1021,7 +1021,7 @@ body {
     height: 75px;
     text-decoration: none;
     color: #fff;
-    border: 10px solid #ed1544;
+    border: 10px solid blue;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1152,7 +1152,7 @@ body {
 .contact--lockup .modal {
     padding: 45px 45px;
     text-align: center;
-    background-color: rgba(237,21,68,0.5);
+    background-color: rgba(10, 31, 219,0.5);
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75)
 }
 
@@ -1255,7 +1255,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #ed1544;
+    background-color: blue;
     border: none;
     border-radius: 0;
 }
@@ -1328,8 +1328,8 @@ body {
     display: none;
 }
 .work-request--options input[type="checkbox"]:checked+label {
-    background-color: #ed1544;
-    border-color: #ed1544;
+    background-color: blue;
+    border-color: blue;
 }
 .work-request--options input[type="checkbox"]:checked+label svg {
     width: 15px;
@@ -1435,7 +1435,7 @@ body {
     -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
     transform: translateZ(0) translateX(0) rotateY(0deg);
     min-height: 100%;
-    outline: 30px solid #ed1544;
+    outline: 30px solid blue;
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
     transition: transform .4s;
@@ -1460,7 +1460,7 @@ body {
 .effect-rotate-left--animate .container {
     -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-    outline: 30px solid #ed1544;
+    outline: 30px solid blue;
 }
 .outer-nav {
     position: absolute;
@@ -1510,7 +1510,7 @@ body {
     transition: transform .2s, opacity .2s, -webkit-transform .2s;
 }
 .outer-nav>li.is-vis {
-	text-shadow: 1px 1px 2px black, 0 0 25px #ed1544, 0 0 5px darkblue;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     -webkit-transform: translateX(0) translateZ(0);
     transform: translateX(0) translateZ(0);
     opacity: 1;
@@ -1529,7 +1529,7 @@ body {
     width: 110%;
     height: 15px;
     opacity: 0;
-    background-color: #ed1544;
+    background-color: blue;
 
 }
 .outer-nav>li.is-active::before {
@@ -1665,7 +1665,7 @@ a:-webkit-any-link {
 /*  typing header*/
 #typewriter, #optionSide, h2{
 	 text-shadow: 1px 1px 2px black, 0 0 25px 
-#ed1544, 0 0 5px darkblue;
+blue, 0 0 5px darkblue;
 }
 #typewriter span:after {
   content:"_";
@@ -1716,7 +1716,7 @@ body {
   height: 100%;
 }
 body {
- font-family: 'Piedra', cursive;
+ font-family: 'play', cursive;
   font-weight: 700;
   background: #111;
   color: #fff;
@@ -3211,16 +3211,16 @@ a.switcher:before {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  border: 4px double #ed1544;
+  border: 4px double blue;
   background-clip: content-box;
   padding: 10px;
   transition: .5s;
   color: #D7D0BE;
   margin: 30px 15px 0 15px;
   font-size: 60px;
-  -moz-box-shadow: 0 0 10px 10px rgba(237,21,68,0.5);
--webkit-box-shadow: 0 0 10px 10px rgba(237,21,68,0.5);
-box-shadow: 0 0 10px 10px rgba(237,21,68,0.5);  
+  -moz-box-shadow: 0 0 10px 10px rgba(10, 31, 219,0.5);
+-webkit-box-shadow: 0 0 10px 10px rgba(10, 31, 219,0.5);
+box-shadow: 0 0 10px 10px rgba(10, 31, 219,0.5);  
 }
 
 .social .link span {
@@ -3246,7 +3246,7 @@ box-shadow: 0 0 10px 10px rgba(237,21,68,0.5);
 .social .link.linkedin ,
 .social .link.github,
 .social .link.skype  {
-  background-color: #e41a44;
+  background-color: blue;
   color: white;
 }
 /*blinking map*/
@@ -3290,7 +3290,7 @@ box-shadow: 0 0 10px 10px rgba(237,21,68,0.5);
 .foo:after {
   -webkit-animation: click 1.5s infinite;
           animation: click 1.5s infinite;
-  border: 5px solid red ;
+  border: 5px solid blue ;
   border-radius: 50%;
   content: "";
   mix-blend-mode: difference;
@@ -3304,7 +3304,7 @@ box-shadow: 0 0 10px 10px rgba(237,21,68,0.5);
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;
       border-radius: 25px;
-      background: #ed1544;
+      background: blue;
     }
 /*preloading*/
 #overlay{
@@ -4890,7 +4890,7 @@ body .raindrop:nth-child(100):after {
   top: 0;
   height: 100%;
   width: 51%;
-  background: #ed1544;
+  background: blue;
 }
 
 .chevron:before {
@@ -4929,7 +4929,7 @@ body .raindrop:nth-child(100):after {
   margin-left: -30px;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 12px;
-  color: #ed1544;
+  color: blue;
   text-transform: uppercase;
   white-space: nowrap;
   opacity: .25;
@@ -4951,7 +4951,7 @@ body .raindrop:nth-child(100):after {
       -ms-flex-pack: center;
           justify-content: center;
    margin-top: 2rem;
-   text-shadow: 1px 1px 2px black, 0 0 25px #ed1544, 0 0 5px darkblue;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .headerGroup .titleGroup {
   color: white;
@@ -5000,7 +5000,7 @@ body .raindrop:nth-child(100):after {
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  color: rgba(237,21,68, 1);
+  color: rgba(10, 31, 219, 1);
   content: "10%";
   font-size: 72px;
   font-weight: bold;
@@ -5015,8 +5015,8 @@ body .raindrop:nth-child(100):after {
   width: 100%;
 }
 .group .circular-progress60:hover {
- -webkit-box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
-          box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
+ -webkit-box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
+          box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
            text-shadow: 3px 3px #FF0000;
 }
 .group .circular-progress73 {
@@ -5037,7 +5037,7 @@ body .raindrop:nth-child(100):after {
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  color: rgba(237,21,68, 1);
+  color: rgba(10, 31, 219, 1);
   content: "73%";
   font-size: 72px;
   font-weight: bold;
@@ -5052,8 +5052,8 @@ body .raindrop:nth-child(100):after {
   width: 100%;
 }
 .group .circular-progress73:hover {
-   -webkit-box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
-          box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
+   -webkit-box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
+          box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
           text-shadow: 3px 3px #FF0000;
 
 }
@@ -5076,7 +5076,7 @@ body .raindrop:nth-child(100):after {
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  color: rgba(237,21,68, 1);
+  color: rgba(10, 31, 219, 1);
   content: "75%";
   font-size: 72px;
   font-weight: bold;
@@ -5091,8 +5091,8 @@ body .raindrop:nth-child(100):after {
   width: 100%;
 }
 .group .circular-progress75:hover {
-   -webkit-box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
-          box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
+   -webkit-box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
+          box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
 text-shadow: 3px 3px #FF0000;
 }
 .group .circular-progress85 {
@@ -5113,7 +5113,7 @@ text-shadow: 3px 3px #FF0000;
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  color: rgba(237,21,68, 1);
+  color: rgba(10, 31, 219, 1);
   content: "85%";
   font-size: 72px;
   font-weight: bold;
@@ -5128,8 +5128,8 @@ text-shadow: 3px 3px #FF0000;
   width: 100%;
 }
 .group .circular-progress85:hover {
-   -webkit-box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
-          box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
+   -webkit-box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
+          box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
 text-shadow: 3px 3px #FF0000;
 }
 .group .circular-progress90 {
@@ -5150,7 +5150,7 @@ text-shadow: 3px 3px #FF0000;
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  color: rgba(237,21,68, 1);
+  color: rgba(10, 31, 219, 1);
   content: "90%";
   font-size: 72px;
   font-weight: bold;
@@ -5165,8 +5165,8 @@ text-shadow: 3px 3px #FF0000;
   width: 100%;
 }
 .group .circular-progress90:hover {
-   -webkit-box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
-          box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
+   -webkit-box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
+          box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
 text-shadow: 3px 3px #FF0000;
 }
 .group .circular-progress100 {
@@ -5188,7 +5188,7 @@ text-shadow: 3px 3px #FF0000;
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  color: rgba(237,21,68, 1);
+  color: rgba(10, 31, 219, 1);
   content: "100%";
   font-size: 64px;
   font-weight: bold;
@@ -5203,14 +5203,14 @@ text-shadow: 3px 3px #FF0000;
   width: 100%;
 }
 .group .circular-progress100:hover {
-  -webkit-box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
-          box-shadow: 0 0 100px 2px rgba(237,21,68, 1);
+  -webkit-box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
+          box-shadow: 0 0 100px 2px rgba(10, 31, 219, 1);
 text-shadow: 3px 3px #FF0000;
 }
 .group .circular-text {
   text-align: center;
-  color: rgba(237,21,68);
-   text-shadow: 1px 1px 2px black, 0 0 25px #ed1544, 0 0 5px darkblue;
+  color: rgba(10, 31, 219);
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 3px;
