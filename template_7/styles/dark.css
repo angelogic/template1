@@ -1,0 +1,20 @@
+.sunmood {
+  background-color: #fff !important;
+  transition: 0.8s;
+}
+
+.info {
+  font-family: "Asap", sans-serif;
+  color: #adacac;
+}
+.info span:nth-child(2) {
+  float: right;
+}
+.info span a {
+  text-decoration: none;
+  color: #adacac;
+}
+.info span a:hover {
+  text-decoration: underline;
+  color: #f64c91;
+}

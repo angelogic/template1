@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-  <title>Chau Tran</title>
+   <link href="styles/styles.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" href="images/letter-c-icon.png" sizes="16x16" />
+  <title>C-Dev Porfolio</title>
   <!--stylesheet-->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="styles/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+ 
   <link href="styles/custom-responsive-styles.css" rel="stylesheet" type="text/css">
   <link href="styles/extra.css" rel="stylesheet" type="text/css">
   <!--scripts-->
@@ -21,15 +22,21 @@
   <script type="text/javascript" src="scripts/plugins-activate.js"></script>
   <script type="text/javascript" src="scripts/extra.js"></script>
 </head>
-
+<body id="mybody">
 <!-- <body id="page-top" style="background: url(images/background4.png) no-repeat fixed center;
   background-size: cover;"> -->
-  <body style="background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);">
+<!--   <body style="background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);"> -->
   <!-- Navigation -->
-
 <div class="neon" contenteditable>
-  <h1>CHAU TRAN</h1>
+  <h1>Chau Tran</h1>
 </div>
+<!-- dark light mode -->
+<!-- <button onclick="toggleTheme()">Switch</button> -->
+  
+  
+
+
+<!-- dark light -->
  <a class="menu-toggle rounded" href="#">
     <i class="fa fa-bars"></i>
   </a>
@@ -62,8 +69,16 @@
   <section id="Banner" class="content-section">
     <div class="container content-wrap text-center">
     <div class="typewriter">
-      <h1>Hi, I am Web Developer.</h1>
+      <h2>Hi, I am Web Developer.</h2>
     </div>
+    <div class="container_mode">
+    <div class="darkmood">
+        <div class="onoffswitch">
+          <input onclick="myfunc()" type="checkbox" name="onoffswitch" class="onoffswitch-checkbox input-dark" id="myonoffswitch" checked>
+          <label class="onoffswitch-label" for="myonoffswitch"></label>
+        </div>
+      </div>
+   </div>
     <div class="overlay"></div>
   </section>
   <!-- Header Ends -->
@@ -363,7 +378,7 @@
     
     </div>
   </footer>
- 
+
 </body>
 
 </html>

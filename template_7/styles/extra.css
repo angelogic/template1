@@ -1,5 +1,5 @@
 /*typing*/
-.typewriter h1 {
+.typewriter h2 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -30,9 +30,102 @@
 
 
 .neon h1{
-  font-family: 'Wire One', Helvetica, Arial, sans-serif;
+  font-family: 'Wire One', Luminari, Fantasy;
   margin: 0 auto;
   text-align: left;
   color: white;
   text-shadow: 0 0 10px #87ceeb, 0 0 15px #87ceeb, 0 0 30px deepskyblue, 0 0 30px deepskyblue, 0 0 30px deepskyblue, 0 0 40px deepskyblue, 0 0 50px deepskyblue, 0 0 60px deepskyblue, 0 0 70px deepskyblue, 0 0 80px deepskyblue, 0 0 90px deepskyblue, 0 0 100px skyblue;
 }
+* {
+  box-sizing: border-box;
+}
+ /*dark light mode*/
+ .container_mode {
+  padding-right: 10%;
+  margin: 0;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .darkmood {
+  margin-left: 100px;
+}
+
+.onoffswitch {
+  position: relative;
+  width: 76px;
+}
+
+.onoffswitch-checkbox {
+  display: none;
+}
+
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  height: 28px;
+  padding: 0;
+  line-height: 28px;
+  border: 0px solid #E3E3E3;
+  border-radius: 45px;
+  background-color: #d8d4d4;
+}
+
+.onoffswitch-label:before {
+  content: "";
+  display: block;
+  width: 45px;
+  margin: -8.5px;
+  background: #e2e0e0;
+  background-image: url('../images/sun-icon.png');
+  transition: 0.8s;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 44px;
+  border-radius: 45px;
+  box-shadow: 0 6px 12px 0px #757575;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+  background-color: #393635;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  border-color: black;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  right: 0px;
+  background-image: url('../images/moon-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #393635;
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
+}
+/*light mode*/
+.sunmood {
+  background-image: url('../images/sky.jpg') !important ;
+ /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background-position: center;
+  transition: 0.8s;
+}
+.sunmood h2 {
+   color: black;
+}
+.sunmood h1 {
+ text-shadow: 0 0 10px #87ceeb, 0 0 15px #87ceeb, 0 0 30px orange, 0 0 30px orange, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px orange, 0 0 80px orange, 0 0 90px orange, 0 0 100px orange;
+}
+
+
+
